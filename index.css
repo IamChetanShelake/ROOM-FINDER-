@@ -5,17 +5,18 @@
 }
 header{
     width: 100%;
-    height: 90vh;  
-    background-image: url('Images/Img2.jpg');
+    height: 100vh;  
+    background-image: url('Images/Img1.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
+    position: relative;
 }
 .HeaderTop{
     width: 100%;
     position: sticky;
     top:0px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.9);
 }
 .HeaderTop > nav{
     width: 90%;
@@ -26,8 +27,7 @@ header{
     align-items: center;
 }
 .Logo  a{
-     background-color: #e3324a;
-     color: #fff;
+     color: #e3324a;
      padding: 5px 15px;
      border-radius: 15px;
      text-decoration: none;
@@ -57,33 +57,187 @@ header{
 }
 .HeaderBody{
     width: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
 }
 .HeaderBody > .RoomSearchBar{
     width: 40%;
-    margin-top: 20vh;
-    background-color: rgba(227, 50, 74,0.8);
+    height: 20vh;
+    margin-top: 5vh;
+    /* background-color: rgba(227, 50, 74, 0.8); */
+    background-color: #fff;
     text-align: center;
     padding: 5vh;
     border-radius: 10px;
+    box-shadow: 2px 2px 25px 2px #202020;
 }
 .RoomSearchBar > input{
     width: 90%;
-    font-size: large;
+    font-size: medium;
     padding: 10px 20px;
     border-radius: 20px;
     background: none;
-    color: #fff;
     outline: none;
+    box-shadow:inset 0px 0px 3px 1px #505050;
+    border: 2px solid black;
+}
+.RoomSearchBar > input:hover{
+    box-shadow: 0px 0px 5px 1px #505050;
 }
 .RoomSearchBar > input::placeholder{
-    color: #d2d2d2;
+    color: #5b5b5b;
+}
+.RoomSearchBar > h1{
+    text-transform: uppercase;
+    color:#e3324a;
+    font-size:25px;
+}
+.RoomSearchBar > p{
+    font-size:medium;
+    text-transform: capitalize;
+    font-weight:lighter;
+    margin-bottom: 10px;
+    line-height:20px;
+}
+.RoomSearchBar >.RoomSearchBtn2{
+     font-weight: lighter;
+     font-size:small;
+     text-transform: uppercase;
+     padding: 5px 10px;
+     border:3px solid #e3324a;
+     background-color: #e3324a;
+     border-radius: 5px;
+     margin-top: 10px;
+     color: #fff;
+}
+.RoomSearchBar >.RoomSearchBtn2:hover{
+    box-shadow: 0px 0px 5px 1px #e3324a;
+}
+.RoomSearchBar >.RoomSearchBtn1{
+    font-weight: lighter;
+    font-size:small;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border:3px solid orangered;
+    background-color:orangered;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+.RoomSearchBar >.RoomSearchBtn1:hover{
+    box-shadow: 0px 0px 5px 1px orangered;
+}
+.HeaderFooter{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+}
+.HeaderFooterLeft{
+    width: 20%;
+    height: 8vh;
+    display: grid;
+    align-items: center;
+    background-color:rgba(227, 50, 74,0.9);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+.HeaderFooterRight{
+    width: 70%;
+    background-color: rgba(255, 255, 255,0.8);
+    border-radius: 5px;
+    border: 2px solid #e3324a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#e3324a;
+    font-weight: bold;
+    font-size: large;
+}
+main{
+    width: 100%;
+}
+.Section-1{
+    width: 85%;
+    margin: auto;  
+    padding: 5vh 0vh;
+}
+.Section-1-Text{
+    text-align: center;
+}
+.Section-1-Text h2{
+    font-size: x-large;
+    background-color: #e3324a;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline;
+    border: solid red 2px;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px 1px #e3324a;
+}
+.Section-1-Text p{
+    font-size:small;
+    color: #202020;
+    text-transform: capitalize;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.Section-1-Cards{
+    width: 100%;
+    display: flex;
+}
+.Section-1-Cards{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+.Section-1-Card{
+    max-width: 35vh;
+    height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px gray;
+    position: relative;
 }
 
-.RoomSearchBar > p{
-    font-size: larger;
-    font-weight: lighter;
-    margin-bottom: 10px;
-    color: black;
+.Section-1-Card > a{
+    text-decoration: none;
+} 
+.Section-1-Card .CardTop{
+    height:70%;
+    /* background: url('Images/Pune.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    padding: 15px 0px 0px 0px ;
+    filter: grayscale(0.4);
+}
+.Section-1-Card .CardTop img{
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+.Section-1-Card .CardTop:hover{
+    filter: grayscale(0);
+}
+.Section-1-Card .CardBottom > h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: large;
+    background-color: rgba(0,0, 0,0.7);
+    display: inline;
+    padding: 5px 25px;
+}
+.Section-1-Card .CardBottom{
+    height: auto;
+    text-decoration: none;
+    padding: 5px 10px;
 }

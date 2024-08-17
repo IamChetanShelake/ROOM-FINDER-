@@ -1,4 +1,4 @@
-<!-- https://findmyroom.in/properties/bangalore -->
+<!-- https://findmyroom.in/properties/bangalore   https://www.pgchoice.com/-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoomFinder|HomePage</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -28,8 +29,9 @@
         </div>
         <div class="HeaderBody">
             <div class="RoomSearchBar">
-                <p>Search Room Using City, Colleges,Near By Location.etc</p>
-                <input type="text" placeholder="Enter College Name, City Ex.Nashik,XYZ College" list="RoomSearch">
+                <h1>- Simplest Way To Search -</h1>
+                <p>Single & Sharing PG accommodation</p>
+                <input type="text" placeholder="Enter address e.g city, state, college or pincode" list="RoomSearch">
                 <datalist id="RoomSearch">
                     <option value="Nashik">
                     <option value="Pune">
@@ -40,9 +42,83 @@
                     </option>
                     </option>
                 </datalist>
+                <button class="RoomSearchBtn1"><i class="fa-solid fa-location-crosshairs"></i> Near Me</button>
+                <button class="RoomSearchBtn2"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+        </div>
+        <div class="HeaderFooter">
+            <div class="HeaderFooterLeft">
+                <h2>Why Roomfinder.com</h2>
+            </div>
+            <div class="HeaderFooterRight">
+                <p>Available In 15+ City`s</p>
+                <p>10000+ Rooms,Hostels,PG`s</p>
+                <p>No Broker Charges</p>
             </div>
         </div>
     </header>
+    <main>
+        <section class="Section-1">
+            <div class="Section-1-Text">
+            <h2>Our Top Cities</h2>
+            <p>Choose the city you’ll be living in next, or look for flatmates and rooms near you</p>
+        </div>
+            <div class="Section-1-Cards">
+                <div class="Section-1-Card">
+                    <a href="#">
+                        <div class="CardTop">
+                            <img src="Images/Pune.jpg" alt="Pune/Img" width="100%" height="100%" >
+                        </div>
+                        <div class="CardBottom">
+                            <h3>Pune</h3>
+                            <p>100+ Listing Every Month</p>
+                            <p>The Center Of Education & High Tech Industry</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="Section-1-Card">
+                    <a href="#">
+                        <div class="CardTop">
+                            <img src="Images/Mumbai.jpg" alt="Mumbai/Img" width="100%" height="100%" >                    
+                        </div>
+                        <div class="CardBottom">
+                            <h3>Mumbai</h3>
+                            <p>100+ Listing Every Month</p>
+                            <p>The Center Of Education & High Tech Industry</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="Section-1-Card">
+                    <a href="#">
+                        <div class="CardTop">
+                            <img src="Images/Banglore.jpeg" alt="Banglore/Img" width="100%" height="100%" >
+                        </div>
+                        <div class="CardBottom">
+                            <h3>Banglore</h3>
+                            <p>100+ Listing Every Month</p>
+                            <p>The Center Of Education & High Tech Industry</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="Section-1-Card">
+                    <a href="#">
+                        <div class="CardTop">
+                            <img src="Images/Nashik.jpg" alt="Nashik/Img" width="100%" height="100%" >
+                        </div>
+                        <div class="CardBottom">
+                            <h3>Nashik</h3>
+                            <p>100+ Listing Every Month</p>
+                            <p>The Center Of Education & High Tech Industry</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
