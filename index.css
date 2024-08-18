@@ -295,3 +295,35 @@ main{
       color: #04af88;
       background-color:#fef2ef;
 }
+
+
+
+footer{
+    width: 100%;
+    background-color: #1d1d1d;
+}
+.FooterBody{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5vh 0vh;
+}
+.FooterBody h3{
+    display: inline;
+    background-color: #e3324a;
+    padding: 5px 10px ;
+    text-transform: capitalize;
+    list-style: none;
+}
+.FooterBody ul{
+    display: flex;
+    color: #7f7f7f;
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+}
+.FooterBody li{
+    margin: 10px;
+    font-size: small;
+    font-weight: bold;
+}
