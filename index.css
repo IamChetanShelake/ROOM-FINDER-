@@ -327,3 +327,29 @@ footer{
     font-size: small;
     font-weight: bold;
 }
+.Section-3{
+    width: 100%;
+    padding: 10vh 0vh;
+}
+.Section-3 h1{
+    text-align: center;
+}
+.ContactUs{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ContactUs-Left{
+    width: 50%;
+}
+.ContactUs-Right{
+    width: 50%;
+}
+.ContactUs-Right form{
+    width: 80%;
+    margin: auto;
+    display: grid;
+}
