@@ -1,3 +1,118 @@
+/* Old HeaderBody CSS - Commented out */
+/*
+.HeaderBody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.HeaderBody > .RoomSearchBar{
+    width: 40%;
+    height: 20vh;
+    margin-top: 5vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 5vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px 2px #202020;
+}
+*/
+
+/* Updated HeaderBody CSS with transparency and frosted glass effect */
+.HeaderBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderBody > .RoomSearchBar {
+    width: 40%;
+    height: 20vh;
+    margin-top: 5vh;
+    background: rgba(255, 255, 255, 0.1); /* Adjusted for better visibility */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Light border color */
+    backdrop-filter: blur(9px); /* Adds a blur effect for a frosted glass look */
+    border-radius: 10px;
+    text-align: center;
+    padding: 5vh;
+    color: #fff;
+    box-shadow: 2px 2px 25px 2px #202020;
+}
+
+/* The following CSS remains unchanged from the old code */
+.RoomSearchBar > input {
+    width: 90%;
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: none;
+    outline: none;
+    box-shadow: inset 0px 0px 3px 1px #505050;
+    border: 2px solid black;
+}
+
+.RoomSearchBar > input:hover {
+    box-shadow: 0px 0px 5px 1px #505050;
+}
+
+.RoomSearchBar > input::placeholder {
+    color: #5b5b5b;
+}
+
+.RoomSearchBar > h1 {
+    text-transform: uppercase;
+    color: #e3324a;
+    font-size: 25px;
+}
+
+.RoomSearchBar > p {
+    font-size: medium;
+    text-transform: capitalize;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.RoomSearchBar > .RoomSearchBtn2 {
+    font-weight: lighter;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 3px solid #e3324a;
+    background-color: #e3324a;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.RoomSearchBar > .RoomSearchBtn2:hover {
+    box-shadow: 0px 0px 5px 1px #e3324a;
+}
+
+.RoomSearchBar > .RoomSearchBtn1 {
+    font-weight: lighter;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 3px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.RoomSearchBar > .RoomSearchBtn1:hover {
+    box-shadow: 0px 0px 5px 1px orangered;
+}
+
+
+
+
+
+
+
+
 *{
     padding: 0%;
     margin: 0%;
