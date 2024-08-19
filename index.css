@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family:sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 header{
     width: 100%;
@@ -341,15 +341,65 @@ footer{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .ContactUs-Left{
     width: 50%;
+    background-color: #fff;
 }
 .ContactUs-Right{
     width: 50%;
+    height: 100%;
+    /* background-color: rgba(227, 50, 74, 0.695); */
 }
 .ContactUs-Right form{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
+}
+.ContactUs-Right  label{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.ContactUs-Right  input{
+    font-size: medium;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.ContactUs-Right  textarea{
+    resize: none;
+    font-size: medium;
+    padding: 5px; 
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.ContactUs-Right  textarea::placeholder{
+    font-size: small;
+}
+.ContactUs-Right span{
+    color: crimson;
+}
+.ContactUs-Right button{
+    width: 40%;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: #04af57;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #04af57;
+    border-radius:3px;
+    padding: 5px;
+}
+.ContactUs-Right button a{
+    text-decoration: none;
+    color: #04af57;
+}
+.ContactUs-Right button:hover a{
+    color: #fff;
+}
+.ContactUs-Right button:hover{
+    background-color: #04af57;
 }
