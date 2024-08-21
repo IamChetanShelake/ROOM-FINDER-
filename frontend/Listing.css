@@ -3,3 +3,49 @@
     margin: 0%;
     font-family: "Poppins", sans-serif;
 }
+main{
+    width: 100%;
+}
+
+.RoomListingCards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.RoomListingCards .Card{
+   width:45%;
+   height:30vh;
+   background-color: #fbd4d0;
+   border-radius: 10px;
+   display: flex;
+   box-shadow: 0px 0px 10px 0px #a7a7a7;
+   border: 2px solid #fff;
+}
+.RoomListingCards .Card:hover{
+    border: 2px solid #fa978c;
+}
+.Card .RoomImages{
+    width: 40%;
+    height: 100%;
+}
+.Card .RoomImages img{
+    border-radius: 10px;
+}
+.Card .RoomDetails{
+    padding: 10px;
+}
+.Card .RoomDetails h4{
+    text-transform: uppercase;
+    font-size: large;
+    color: #2d2d2d;
+    font-weight: bold;
+}
+.Card .RoomDetails .NearCollege{
+    text-transform:capitalize;
+    font-size: small;
+    color:#666666;
+}
