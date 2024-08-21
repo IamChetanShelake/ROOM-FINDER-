@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.HeaderTop{
+    width: 100%;
+    position: sticky;
+    top:0px;
+    background-color: rgba(0,0,0,0.9);
+    /* background-color:#04af54;  */
+    z-index: 1;
+}
+.HeaderTop > nav{
+    width: 90%;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo  a{
+     color: #e3324a;
+     padding: 5px 15px;
+     border-radius: 15px;
+     text-decoration: none;
+}
+.NavBar > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.NavBar a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size:medium;
+    color: #cfcfcf;;
+}
+.NavBar a:hover{
+    color:#fff;
+}
+.NavBar ul > .Btn-1 > a{
+    border: 2px solid #e3324a;
+    padding: 5px;
+    color: #e3324a;
+}
+.NavBar ul > .Btn-1 > a:hover{
+    background-color:#e3324a;
+    color: #fff;
+}
