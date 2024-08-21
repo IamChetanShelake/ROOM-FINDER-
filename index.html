@@ -31,17 +31,16 @@
             <div class="RoomSearchBar">
                 <h1>- Simplest Way To Search -</h1>
                 <p>Single & Sharing PG accommodation</p>
-                <input type="text" placeholder="Enter address e.g city, state, college or pincode" list="RoomSearch">
-                <datalist id="RoomSearch">
-                    <option value="Nashik">
-                    <option value="Pune">
-                    <option value="K K Wagh Institute Of Engineering & Research Nashik-422005">
-                    <option value="DY Patil College Pune">
-                    <option value="Mumbai"></option>
-                    </option>
-                    </option>
-                    </option>
-                </datalist>
+                <div class="SearchOptions">
+                    <label>Search By College</label>
+                  <input type="radio" name="SearchType" id="SearchType">
+                  <label>Search By City</label>
+                  <input type="radio" name="SearchType" id="SearchType">
+                </div>
+                <div class="InputBoxs">
+                    <input type="text" placeholder="Enter College Name" id="RoomSearchByCollege" id="">
+                    <input type="text" placeholder="Enter City Name" id="RoomSearchByCity">
+                </div>
                 <button class="RoomSearchBtn1"><i class="fa-solid fa-location-crosshairs"></i> Near Me</button>
                 <button class="RoomSearchBtn2"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
             </div>
@@ -144,39 +143,39 @@
         </section>
         <section class="Section-3">
             <h1>You Have Any Quetions ?</h1>
-             <div class="ContactUs">
+            <div class="ContactUs">
                 <div class="ContactUs-Left">
-                    <img src="Images/ContactUs_IMG.jpg" alt="ContactUs" width="100%" height="100%"  >
+                    <img src="Images/ContactUs_IMG.jpg" alt="ContactUs" width="100%" height="100%">
                 </div>
                 <div class="ContactUs-Right">
-                   <form action="">
-                    <label>Full Name <span>*</span></label>
-                    <input type="text" required>
-                    
-                    <label>Email  <span>*</span></label>
-                    <input type="email" required>
-                    
-                    <label>Mobile No <span>*</span></label>
-                    <input type="text" required>
+                    <form action="">
+                        <label>Full Name <span>*</span></label>
+                        <input type="text" required>
 
-                    <label>Your Question <span>*</span></label>
-                      <textarea cols="" rows="3" placeholder="Describe Your Question In Detail" required></textarea>
-                      <button><a href="#">Sent Message</a></button>
-                   </form>
+                        <label>Email <span>*</span></label>
+                        <input type="email" required>
+
+                        <label>Mobile No <span>*</span></label>
+                        <input type="text" required>
+
+                        <label>Your Question <span>*</span></label>
+                        <textarea cols="" rows="3" placeholder="Describe Your Question In Detail" required></textarea>
+                        <button><a href="#">Sent Message</a></button>
+                    </form>
                 </div>
-             </div>
+            </div>
         </section>
     </main>
     <footer>
         <div class="FooterBody">
-             <h3>Project Devlope & Managed By : </h3>
-             <p>Fill The Form and Send Message</p>
-             <ul>
+            <h3>Project Devlope & Managed By : </h3>
+            <p>Fill The Form and Send Message</p>
+            <ul>
                 <li>Chetan Shelke </li>
                 <li>Chetan Patil </li>
                 <li>Nisarag Patil </li>
                 <li>Pravin Navale </li>
-             </ul>
+            </ul>
         </div>
     </footer>
 </body>
