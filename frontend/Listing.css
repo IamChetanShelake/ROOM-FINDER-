@@ -19,7 +19,7 @@ main{
 .RoomListingCards .Card{
    width:45%;
    height:30vh;
-   background-color: #fbd4d0;
+   background-color: #fbebea;
    border-radius: 10px;
    display: flex;
    box-shadow: 0px 0px 10px 0px #a7a7a7;
@@ -38,14 +38,59 @@ main{
 .Card .RoomDetails{
     padding: 10px;
 }
-.Card .RoomDetails h4{
+.Card .RoomDetails .Title{
     text-transform: uppercase;
     font-size: large;
     color: #2d2d2d;
     font-weight: bold;
 }
-.Card .RoomDetails .NearCollege{
+.Card .RoomDetails .Landmark{
     text-transform:capitalize;
     font-size: small;
     color:#666666;
+}
+.Card .RoomFeatures{
+    width: 100%;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    padding: 10px;
+    margin-top: 5px;
+}
+.Card .RoomFeatures .RoomFeaturesTop{
+    display: flex;
+    justify-content: space-between;
+}
+.Card .RoomFeaturesTop p{
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Card .RoomContact{
+    width: 100%;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.Card .RoomContact p{
+    background-color: #e3324a;
+    color: #fff;
+    border: 1px solid #e3324a;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Card .RoomContact .Rating{
+    color: gold;
 }
